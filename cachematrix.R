@@ -1,11 +1,10 @@
-## The idea here is to use a couple of functions to compute and store
-## the inverse of a matrix.
+## A couple of functions to compute and store the inverse of a matrix.
 ## As computing  the inverse of a matrix can be time consuming,
-## it's a good idea to cache the result of the computation, to be
+## it is a good idea to cache the result of the computation, to be
 ## used later if requested again.
 
 ## makeCacheMatrix build an object used to store and compute the
-## inverse of a matrix
+## inverse of a matrix (or the solution of the linear system)
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
